@@ -63,10 +63,11 @@ python main.py
 🌍 按州的销量热力图
 
 🖼️ 可视化结果示例
+<img width="1200" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/2ac9867b-f49c-4282-bf52-8fc48e515cbc" />
 
-<img width="1424" height="670" alt="newplot" src="https://github.com/user-attachments/assets/e172428a-d51f-4d7d-a182-074ceafcb409" />
-<img width="1200" height="600" alt="category_sales" src="https://github.com/user-attachments/assets/b0740845-247a-4503-b166-ada8273b8021" />
-
+<img width="1200" height="600" alt="Figure_1" src=
+"https://github.com/user-attachments/assets/08822e10-b7c9-4200-91f0-74758c046313" />
+<img width="1200" height="600" alt="Figure_2" src="https://github.com/user-attachments/assets/46443faf-ec9a-4ae7-949b-548476cbbebd" />
 
 
 🔮 下一步改进
@@ -77,7 +78,8 @@ python main.py
 
 构建交互式 Dashboard（Streamlit / Dash）
 
-📝 作者
+📝 作者![Uploading Figure_1.png…]()
+
 
 👤 姜圣涛 / ddnevergiveu
 
