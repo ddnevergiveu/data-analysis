@@ -1,0 +1,28 @@
+{
+  "source": "synthetic_demo",
+  "synthetic": true,
+  "observation_end_exclusive": "2025-01-01T00:00:00",
+  "order_status": "delivered",
+  "currency": "BRL",
+  "amount_definition": "sum of item prices; excludes freight, refunds and platform fees",
+  "customer_key": "customer_unique_id",
+  "metrics": {
+    "orders": 235,
+    "customers": 79,
+    "item_rows": 467,
+    "merchandise_value": 46409.630000000005,
+    "freight_value": 5785.139999999999,
+    "average_order_value": 197.48778723404257,
+    "median_order_value": 178.15,
+    "repeat_customer_rate": 0.6962025316455697
+  },
+  "segments": {
+    "champions": 31,
+    "at_risk": 15,
+    "occasional": 13,
+    "loyal": 9,
+    "hibernating": 8,
+    "new": 3
+  },
+  "cohort_last_complete_month": "2024-12"
+}
