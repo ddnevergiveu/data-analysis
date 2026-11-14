@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidence-data-copilot"
+version = "0.1.0"
+description = "Traceable data analysis with DuckDB 2.0, MCP v2, structured planning and executable evaluations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb==2.0.0",
+    "mcp==2.3.0",
+    "sqlglot==30.31.0",
+    "pydantic==2.14.3",
+    "httpx==0.28.1",
+]
+
+[project.scripts]
+evidence-copilot = "evidence_copilot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["evidence_copilot*"]
